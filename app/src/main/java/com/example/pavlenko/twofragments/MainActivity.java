@@ -9,6 +9,8 @@ import android.widget.FrameLayout;
 
 public class MainActivity extends AppCompatActivity {
 
+    private static final String FRAGMENT_TAG = "mainFragment";
+
     FrameLayout container;
     FragmentManager fragmentManager;
     FragmentReplacer replacer;
@@ -28,12 +30,13 @@ public class MainActivity extends AppCompatActivity {
 
         fragmentManager = getSupportFragmentManager();
         replacer = (FragmentReplacer) getLastCustomNonConfigurationInstance();
-        Log.d("Activity", (replacer == null) + "");
-        if (replacer == null) {
+
+        if (fragmentManager.findFragmentByTag(FRAGMENT_TAG) == null)
             fragmentManager.beginTransaction()
-                    .add(R.id.container, first)
+                    .add(R.id.container, first, FRAGMENT_TAG)
                     .commit();
 
+        if (replacer == null) {
             replacer = new FragmentReplacer(this);
             replacer.execute();
         } else
@@ -49,11 +52,11 @@ public class MainActivity extends AppCompatActivity {
 
         MainActivity activity;
 
-        public FragmentReplacer(MainActivity activity) {
+        FragmentReplacer(MainActivity activity) {
             this.activity = activity;
         }
 
-        public void attach(MainActivity activity) {
+        void attach(MainActivity activity) {
             this.activity = activity;
         }
 
@@ -70,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         protected void onPostExecute(Boolean resultCode) {
             activity.fragmentManager.beginTransaction()
-                    .replace(R.id.container, activity.second)
+                    .replace(R.id.container, activity.second, FRAGMENT_TAG)
                     .commit();
         }
     }
