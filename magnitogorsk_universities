@@ -13,7 +13,7 @@
 							"code" : "01.03.02",
 							"educationLevel" : "бакалавриат",
 							"educationForm" : "очная (п.б.)",
-							"faculty" : "";
+							"faculty" : "",
 							"institute" : "Институт естествознания и стандартизации (ИЕиС)",
 							"budgetPlacesAmount" : 30,
 							"preferentialPlaceAmount" : 3,
@@ -26,7 +26,7 @@
 							"code" : "03.03.02",
 							"educationLevel" : "бакалавриат",
 							"educationForm" : "очная (а.б.)",
-							"faculty" : "";
+							"faculty" : "",
 							"institute" : "Институт естествознания и стандартизации (ИЕиС)",
 							"budgetPlacesAmount" : 30,
 							"preferentialPlaceAmount" : 3,
@@ -39,7 +39,7 @@
 							"code" : "12.03.01",
 							"educationLevel" : "бакалавриат",
 							"educationForm" : "очная (п.б.)",
-							"faculty" : "Приборы и методы контроля качества и диагностики";
+							"faculty" : "Приборы и методы контроля качества и диагностики",
 							"institute" : "Институт естествознания и стандартизации (ИЕиС)",
 							"budgetPlacesAmount" : 14,
 							"preferentialPlaceAmount" : 2,
@@ -52,7 +52,7 @@
 							"code" : "18.03.01",
 							"educationLevel" : "бакалавриат",
 							"educationForm" : "очная (а.б.)",
-							"faculty" : "Химическая технология природных энергоносителей и углеродных материалов";
+							"faculty" : "Химическая технология природных энергоносителей и углеродных материалов",
 							"institute" : "Институт естествознания и стандартизации (ИЕиС)",
 							"budgetPlacesAmount" : 27,
 							"preferentialPlaceAmount" : 3,
@@ -65,7 +65,7 @@
 							"code" : "19.03.02",
 							"educationLevel" : "бакалавриат",
 							"educationForm" : "очная (п.б.)",
-							"faculty" : "Технология продуктов общественного питания";
+							"faculty" : "Технология продуктов общественного питания",
 							"institute" : "Институт естествознания и стандартизации (ИЕиС)",
 							"budgetPlacesAmount" : 25,
 							"preferentialPlaceAmount" : 3,
@@ -78,7 +78,7 @@
 							"code" : "19.03.02",
 							"educationLevel" : "бакалавриат",
 							"educationForm" : "заочная (а.б.)",
-							"faculty" : "Технология продуктов общественного питания";
+							"faculty" : "Технология продуктов общественного питания",
 							"institute" : "Институт естествознания и стандартизации (ИЕиС)",
 							"budgetPlacesAmount" : 20,
 							"preferentialPlaceAmount" : 2,
@@ -91,7 +91,7 @@
 							"code" : "20.03.01",
 							"educationLevel" : "бакалавриат",
 							"educationForm" : "очная (а.б.)",
-							"faculty" : "";
+							"faculty" : "",
 							"institute" : "Институт естествознания и стандартизации (ИЕиС)",
 							"budgetPlacesAmount" : 16,
 							"preferentialPlaceAmount" : 2,
@@ -104,7 +104,7 @@
 							"code" : "23.03.03",
 							"educationLevel" : "бакалавриат",
 							"educationForm" : "очная (п.б.)",
-							"faculty" : "Автомобильный сервис";
+							"faculty" : "Автомобильный сервис",
 							"institute" : "Институт естествознания и стандартизации (ИЕиС)",
 							"budgetPlacesAmount" : 17,
 							"preferentialPlaceAmount" : 2,
@@ -117,7 +117,7 @@
 							"code" : "27.03.01",
 							"educationLevel" : "бакалавриат",
 							"educationForm" : "очная (п.б.)",
-							"faculty" : "Стандартизация и сертификация в производстве металлопродукции";
+							"faculty" : "Стандартизация и сертификация в производстве металлопродукции",
 							"institute" : "Институт естествознания и стандартизации (ИЕиС)",
 							"budgetPlacesAmount" : 17,
 							"preferentialPlaceAmount" : 2,
@@ -143,7 +143,7 @@
 							"code" : "27.03.01",
 							"educationLevel" : "бакалавриат",
 							"educationForm" : "заочная (а.б.)",
-							"faculty" : "Стандартизация и сертификация в производстве металлопродукции";
+							"faculty" : "Стандартизация и сертификация в производстве металлопродукции",
 							"institute" : "Институт естествознания и стандартизации (ИЕиС)",
 							"budgetPlacesAmount" : 17,
 							"preferentialPlaceAmount" : 2,
@@ -156,7 +156,7 @@
 							"code" : "29.03.03",
 							"educationLevel" : "бакалавриат",
 							"educationForm" : "очная (а.б.)",
-							"faculty" : "Технология и дизайн упаковочного производства";
+							"faculty" : "Технология и дизайн упаковочного производства",
 							"institute" : "Институт естествознания и стандартизации (ИЕиС)",
 							"budgetPlacesAmount" : 25,
 							"preferentialPlaceAmount" : 3,
@@ -169,7 +169,7 @@
 							"code" : "44.03.05",
 							"educationLevel" : "бакалавриат",
 							"educationForm" : "заочная (а.б.) ДОТ",
-							"faculty" : "Математика и информатика";
+							"faculty" : "Математика и информатика",
 							"institute" : "Институт естествознания и стандартизации (ИЕиС)",
 							"budgetPlacesAmount" : 0,
 							"preferentialPlaceAmount" : 0,
