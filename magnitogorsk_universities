@@ -4,6 +4,7 @@
 	"universities" :
 		[{
 			"name" : "МГТУ",
+			"tag" : "mgtu",
 			"address" : "",
 			"site" : "http://magtu.ru/",
 			"specialties" : 
